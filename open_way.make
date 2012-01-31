@@ -23,13 +23,6 @@ projects[drupal][version] = 7
 projects[drupal][type] = core
   
   
-; Install Profile
-; --------
-
-projects[open_way][type] = "profile"
-projects[open_way][download][type] = "git"
-projects[open_way][download][url] = "git@github.com:Progressable/open_way.git"
-  
   
 ; Modules
 ; --------
@@ -289,4 +282,9 @@ libraries[mediaelement][destination] = "libraries"
 libraries[mediaelement][directory_name] = mediaelement
 
 
+; Install Profile
+; --------
 
+;projects[open_way][type] = "profile"
+;projects[open_way][download][type] = "git"
+;projects[open_way][download][url] = "git@github.com:Progressable/open_way.git"
