@@ -32,7 +32,6 @@ projects[open_way][download][url] = "git@github.com:Progressable/open_way.git"
 
 libraries[profiler][download][type] = "get"; 
 libraries[profiler][destination] = "libraries"
-libraries[profiler][destination] = /profiles/open_way/libraries
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.zip"  
   
   
@@ -224,7 +223,7 @@ projects[themekey][version] = 2.0
 
 projects[rules][version] = 2.0
 
-
+projects[apps][version] = 2.0
 
 
 
