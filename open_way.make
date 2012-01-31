@@ -29,10 +29,6 @@ projects[drupal][type] = core
 projects[open_way][type] = "profile"
 projects[open_way][download][type] = "git"
 projects[open_way][download][url] = "git@github.com:Progressable/open_way.git"
-
-libraries[profiler][download][type] = "get"; 
-libraries[profiler][destination] = "libraries"
-libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.zip"  
   
   
 ; Modules
