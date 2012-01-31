@@ -23,11 +23,23 @@ projects[drupal][version] = 7
 projects[drupal][type] = core
   
   
+; Install Profile
+; --------
+
+projects[open_way][type] = "profile"
+projects[open_way][download][type] = "git"
+projects[open_way][download][url] = "git@github.com:Progressable/open_way.git"
+
+libraries[profiler][download][type] = "get"; 
+libraries[profiler][destination] = "libraries"
+libraries[profiler][destination] = /profiles/open_way/libraries
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.zip"  
+  
+  
 ; Modules
 ; --------
 
-projects[acquia_connector][type] = "module"
-projects[acquia_connector][version] = 2.1
+
 
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][version] = 2.2
@@ -58,9 +70,6 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 
 projects[date][type] = "module"
 projects[date][version] = 2.0-rc1
-
-projects[diff][type] = "module"
-projects[diff][version] = 2.0
 
 projects[email][type] = "module"
 projects[email][version] = 1.0
@@ -104,8 +113,7 @@ projects[link][version] = 1.0
 projects[logintoboggan][type] = "module"
 projects[logintoboggan][version] = 1.3
 
-projects[masquerade][type] = "module"
-projects[masquerade][version] = 1.0-rc4
+
 
 projects[media_browser_plus][type] = "module"
 projects[media_browser_plus][version] = 1.0-beta3
@@ -128,8 +136,6 @@ projects[mediaelement][version] = 1.2
 projects[menu_block][type] = "module"
 projects[menu_block][version] = 2.2
 
-projects[mollom][type] = "module"
-projects[mollom][version] = 2.0-beta1
 
 projects[multiform][type] = "module"
 projects[multiform][version] = 1.0-beta2
@@ -204,8 +210,6 @@ projects[image_resize_filter][version] = 1.13
 
 projects[profile2][version] = 1.1
 
-projects[rpx][version] = 2.1
-
 projects[tao][version] = 3.0-beta4
 
 projects[workbench_moderation][version] = 1.1
@@ -220,10 +224,6 @@ projects[themekey][version] = 2.0
 
 projects[rules][version] = 2.0
 
-; Profile
-projects[open_way][type] = "profile"
-projects[open_way][download][type] = "git"
-projects[open_way][download][url] = "git@github.com:Progressable/open_way.git"
 
 
 
@@ -294,17 +294,4 @@ libraries[mediaelement][destination] = "libraries"
 libraries[mediaelement][directory_name] = mediaelement
 
 
-
-; Install Profile
-; --------
-; Todo figure out how to get Drush Make to put these files in the drupal profile directory.
-
-; projects[open_way][subdir] = "openway"
-; projects[open_way][download][type] = "git"
-; projects[open_way][download][url] = https://Progressable@github.com/Progressable/open_way.git
-; projects[open_way][destination] = profiles/open_way
-
-; projects[profiler][version] = 2.0-beta1
-; projects[profiler][type] = "module"
-; projects[profiler][destination] = profiles/open_way/libraries
 
