@@ -223,7 +223,7 @@ projects[themekey][version] = 2.0
 
 projects[rules][version] = 2.0
 
-projects[apps][version] = 2.0
+projects[apps][version] = 1.0-beta5
 
 
 
