@@ -6,12 +6,7 @@
  * Perform actions to set up the site for this profile.
  */
 function open_way_install() {
-  open_way_add_default_text_formats_and_perms();
 
-  // Allow visitor account creation with administrative approval.
-  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
-  //open_way_create_basic_roles_perms();
-  
   open_way_enable_admin_theme ();
 
   // set various system variables
