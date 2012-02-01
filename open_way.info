@@ -73,22 +73,22 @@ dependencies[] = globalredirect
 dependencies[] = number
 dependencies[] = text
 dependencies[] = views
-dependencies[] = views_ui
-dependencies[] = views_export
+; dependencies[] = views_ui
+; dependencies[] = views_export
 dependencies[] = features
 dependencies[] = pathauto
 dependencies[] = wysiwyg
 dependencies[] = context
-dependencies[] = context_ui
+; dependencies[] = context_ui
 dependencies[] = email
 dependencies[] = link
 dependencies[] = better_formats
 dependencies[] = boxes
 dependencies[] = backup_migrate
-dependencies[] = diff
+; dependencies[] = diff
 dependencies[] = logintoboggan
 dependencies[] = menu_block
-dependencies[] = mollom
+; dependencies[] = mollom
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = save_draft
@@ -99,28 +99,10 @@ dependencies[] = open_way_configuration_images_styles
 dependencies[] = open_way_configuration_video_and_audio
 dependencies[] = open_way_structure_blog
 dependencies[] = open_way_structure_pages
+dependencies[] = open_way_appearance_classic_theme_gav
+dependencies[] = open_way_configuration_text_formats
+dependencies[] = open_way_content_default_pages
 
-; -----------------------------------------------------------------------------
-;                                   Users
-; -----------------------------------------------------------------------------
-; One other thing to note here is that there's this (handy) quirk in Drupal's 
-; install API in that you can bypass the configuration form during installation
-; (where you'd normally set up user 1 credentials and the site name and such).
-; To do this you need to specify credentials for user 1 and also specify the
-; site name and site email variables (@see Variables below). 
-; -----------------------------------------------------------------------------
-
-;users[superduper][uid]    = 1
-;users[superduper][name]   = admin
-;users[superduper][mail]   = admin@admin
-;users[superduper][roles]  = Admin,Publisher
-;users[superduper][status] = 1
-
-;users[siteadmin][uid]    = 2
-;users[siteadmin][name]   = siteadmin
-;users[siteadmin][mail]   = changeme@changeme
-;users[siteadmin][roles]  = Admin,Publisher
-;users[siteadmin][status] = 1
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
@@ -136,9 +118,9 @@ dependencies[] = open_way_structure_pages
 ;variables[site_name] = United Way of Anytown
 ;variables[site_mail] = jr@progressable.com
 
-variables[site_footer] = Open Way Powered
-variables[site_frontpage] = node/2
-variables[theme_settings][toggle_node_info_page] = 0
+; variables[site_footer] = Open Way Powered
+; variables[site_frontpage] = node/2
+; variables[theme_settings][toggle_node_info_page] = 0
 
 ; options for default theme
 variables [toggle_logo] = 1
@@ -149,52 +131,23 @@ variables [toggle_comment_user_picture] = 1
 variables [toggle_main_menu] = 0
 variables [toggle_secondary_menu] = 0
 variables [default_logo] = 0
-variables [logo_path' => 'sites/all/themes/live_united_classic/images/image_common/topBlu_liveUnited.gif',
-variables  [logo_upload] =   
+variables [logo_path] => 'sites/all/themes/live_united_classic/images/image_common/topBlu_liveUnited.gif',
+;variables  [logo_upload] =   
 variables [default_favicon] = 0
 variables [favicon_path] = sites/all/themes/live_united_classic/images/image_common/live_united_favicon.gif
-variables [favicon_upload] =   
+;variables [favicon_upload] =   
 variables [zen_breadcrumb] = yes
 variables [zen_breadcrumb_home] = 1
 variables [zen_breadcrumb_trailing] = 1
 variables [zen_breadcrumb_title] = 0
-variables [zen_rebuild_registry] = 1
+variables [zen_rebuild_registry] = 0
 variables [zen_wireframes] = 0
 variables [favicon_mimetype] = image/gif
-
-
-
-
-
-
 
 ; You may also want to set the clean url variable if you don't need clean urls. 
 ; Since we bypassed the configuration screen, it is enabled by default, so to 
 ; disable it you'll want to uncomment this line:
 ; variables[clean_url] = 0
 
-; -----------------------------------------------------------------------------
-;                                    Nodes
-; -----------------------------------------------------------------------------
-nodes[front][type] = page
-nodes[front][title] = Welcome to Open Way
-nodes[front][uid] = 1
-nodes[front][body] = <p>Congradulations you have installed Open Way.</p>
-nodes[front][language] = und
-
-nodes[two][type] = page
-nodes[two][title] = Page 2
-nodes[two][uid] = 1
-nodes[two][body] = <p>page 2</p>
-nodes[two][language] = und
-nodes[two][menu][link_title] = Hello world!
-nodes[two][menu][menu_name] = secondary-link
-
-
-nodes[three][type] = page
-nodes[three][title] = Page 3
-nodes[three][uid] = 1
-nodes[three][body] = <p>Page 3</p>
-nodes[three][language] = und
 
 

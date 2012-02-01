@@ -252,9 +252,6 @@ projects[image_resize_filter][subdir] = contrib
 projects[profile2][version] = 1.1
 projects[profile2][subdir] = contrib
 
-projects[tao][version] = 3.0-beta4
-projects[tao][subdir] = contrib
-
 projects[workbench_moderation][version] = 1.1
 projects[workbench_moderation][subdir] = contrib
 
@@ -288,6 +285,8 @@ projects[open_way_modules][download][url] = "git://github.com/Progressable/open_
 ; Themes
 ; --------
 
+projects[tao][version] = 3.0-beta4
+
 projects[rubik][version] = 4.0-beta6
 projects[rubik][type] = "theme"
 projects[zen][version] = 3.1
@@ -302,9 +301,15 @@ projects[live_united_classic][download][url] = "git://github.com/Progressable/li
 projects[live_united_classic][download][type] = "git"
 
 
+
   
 ; Libraries
 ; ---------
+
+;Libraries
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
+
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
