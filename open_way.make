@@ -31,189 +31,250 @@ projects[drupal][type] = core
 
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][version] = 2.2
+projects[backup_migrate][subdir] = contrib
 
 projects[better_formats][type] = "module"
 projects[better_formats][version] = 1.x-dev
+projects[better_formats][subdir] = contrib
 
 projects[boxes][type] = "module"
 projects[boxes][version] = 1.0-beta6
+projects[boxes][subdir] = contrib
 
 projects[cck][type] = "module"
 projects[cck][version] = 2.x-dev
+projects[cck][subdir] = contrib
 
 projects[colorbox][type] = "module"
 projects[colorbox][version] = 1.2
+projects[colorbox][subdir] = contrib
 
 projects[context][type] = "module"
 projects[context][version] = 3.0-beta2
+projects[context][subdir] = contrib
 
 projects[css_injector][type] = "module"
 projects[css_injector][version] = 1.7
+projects[css_injector][subdir] = contrib
 
 projects[ctools][type] = "module"
 projects[ctools][version] = 1.0-rc1
+projects[password_policy][subdir] = contrib
 
 projects[custom_breadcrumbs][type] = "module"
 projects[custom_breadcrumbs][version] = 1.0-alpha1
+projects[custom_breadcrumbs][subdir] = contrib
 
 projects[date][type] = "module"
 projects[date][version] = 2.0-rc1
+projects[password_policy][subdir] = contrib
 
 projects[email][type] = "module"
 projects[email][version] = 1.0
+projects[email][subdir] = contrib
 
 projects[extlink][type] = "module"
 projects[extlink][version] = 1.12
+projects[password_policy][subdir] = contrib
 
 projects[features][type] = "module"
 projects[features][version] = 1.0-beta6
+projects[features][subdir] = contrib
 
 projects[flag][type] = "module"
 projects[flag][version] = 2.0-beta6
+projects[flag][subdir] = contrib
 
 projects[flexible_blogs][type] = "module"
 projects[flexible_blogs][version] = 1.0
+projects[password_policy][subdir] = contrib
 
 projects[google_analytics][type] = "module"
 projects[google_analytics][version] = 1.2
+projects[google_analytics][subdir] = contrib
 
 projects[imageapi][type] = "module"
 projects[imageapi][version] = 1.x-dev
+projects[imageapi][subdir] = contrib
 
 projects[imagecache_actions][type] = "module"
 projects[imagecache_actions][version] = 1.x-dev
+projects[password_policy][subdir] = contrib
 
 projects[imce_wysiwyg][type] = "module"
 projects[imce_wysiwyg][version] = 1.0
+projects[imce_wysiwyg][subdir] = contrib
 
 projects[imce][type] = "module"
 projects[imce][version] = 1.5
+projects[imce][subdir] = contrib
 
 projects[invite][type] = "module"
 projects[invite][version] = 2.1-beta2
+projects[invite][subdir] = contrib
 
 projects[libraries][type] = "module"
 projects[libraries][version] = 1.0
+projects[password_policy][subdir] = contrib
 
 projects[link][type] = "module"
 projects[link][version] = 1.0
+projects[link][subdir] = contrib
 
 projects[logintoboggan][type] = "module"
 projects[logintoboggan][version] = 1.3
-
-
+projects[logintoboggan][subdir] = contrib
 
 projects[media_browser_plus][type] = "module"
 projects[media_browser_plus][version] = 1.0-beta3
+projects[password_policy][subdir] = contrib
 
 projects[media_gallery][type] = "module"
 projects[media_gallery][version] = 1.0-beta7
+projects[media_gallery][subdir] = contrib
 
 projects[media_vimeo][type] = "module"
 projects[media_vimeo][version] = 1.0-beta4
+projects[media_vimeo][subdir] = contrib
 
 projects[media_youtube][type] = "module"
 projects[media_youtube][version] = 1.0-alpha5
+projects[password_policy][subdir] = contrib
 
 projects[media][type] = "module"
 projects[media][version] = 1.0-rc3
+projects[media][subdir] = contrib
 
 projects[mediaelement][type] = "module"
 projects[mediaelement][version] = 1.2
+projects[password_policy][subdir] = contrib
 
 projects[menu_block][type] = "module"
 projects[menu_block][version] = 2.2
-
+projects[menu_block][subdir] = contrib
 
 projects[multiform][type] = "module"
 projects[multiform][version] = 1.0-beta2
+projects[password_policy][subdir] = contrib
 
 projects[options_element][type] = "module"
 projects[options_element][version] = 1.5
+projects[password_policy][subdir] = contrib
 
 projects[pathauto][type] = "module"
 projects[pathauto][version] = 1.0
+projects[pathauto][subdir] = contrib
 
 projects[plupload][type] = "module"
 projects[plupload][type] = "module"
+projects[password_policy][subdir] = contrib
 
 projects[plupload][version] = 1.0
 projects[plupload][version] = 1.0-beta3
+projects[plupload][subdir] = contrib
 
 projects[redirect][type] = "module"
 projects[redirect][version] = 1.0-beta4
+projects[password_policy][subdir] = contrib
 
 projects[role_delegation][type] = "module"
 projects[role_delegation][version] = 1.1
+projects[role_delegation][subdir] = contrib
 
 projects[save_draft][type] = "module"
 projects[save_draft][version] = 1.4
+projects[password_policy][subdir] = contrib
 
 projects[search404][type] = "module"
 projects[search404][version] = 1.1
+projects[search404][subdir] = contrib
 
 projects[service_links][type] = "module"
 projects[service_links][version] = 2.1
+projects[password_policy][subdir] = contrib
 
 projects[stringoverrides][type] = "module"
 projects[stringoverrides][version] = 1.8
+projects[stringoverrides][subdir] = contrib
 
 projects[strongarm][type] = "module"
 projects[strongarm][version] = 2.0-beta5
+projects[password_policy][subdir] = contrib
 
 projects[styles][type] = "module"
 projects[styles][version] = 2.0-alpha8
+projects[styles][subdir] = contrib
 
 projects[token][type] = "module"
 projects[token][version] = 1.0-beta7
+projects[token][subdir] = contrib
 
 projects[views_slideshow][type] = "module"
 projects[views_slideshow][version] = 3.0
+projects[views_slideshow][subdir] = contrib
 
 projects[views][type] = "module"
 projects[views][version] = 3.1
+projects[views][subdir] = contrib
 
 projects[webform][type] = "module"
 projects[webform][version] = 3.15
+projects[password_policy][subdir] = contrib
 
 projects[workbench][type] = "module"
 projects[workbench][version] = 1.1
+projects[workbench][subdir] = contrib
 
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][version] = 2.1
+projects[wysiwyg][subdir] = contrib
 
 projects[comment_notify][version] = 1.0-rc1
 projects[comment_notify][type] = "module"
+projects[comment_notify][subdir] = contrib
 
 projects[jquery_update][version] = 2.2
 projects[jquery_update][type] = "module"
+projects[password_policy][subdir] = contrib
 
 projects[defaultcontent][version] = 1.0-alpha4
+projects[defaultcontent][subdir] = contrib
 
 projects[field_group][version] = 1.1
+projects[field_group][subdir] = contrib
 
 projects[globalredirect][version] = 1.4
+projects[globalredirect][subdir] = contrib
 
 projects[image_resize_filter][version] = 1.13
+projects[password_policy][subdir] = contrib
 
 projects[profile2][version] = 1.1
+projects[profile2][subdir] = contrib
 
 projects[tao][version] = 3.0-beta4
+projects[tao][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.1
+projects[workbench_moderation][subdir] = contrib
 
 projects[file_entity][version] = 2.0-unstable2
+projects[file_entity][subdir] = contrib
 
 projects[entity][version] = 1.0-rc1
+projects[entity][subdir] = contrib
 
 projects[nice_menus][version] = 2.0
+projects[nice_menus][subdir] = contrib
 
 projects[themekey][version] = 2.0
+projects[themekey][subdir] = contrib
 
 projects[rules][version] = 2.0
+projects[rules][subdir] = contrib
 
 projects[apps][version] = 1.0-beta5
-
+projects[apps][subdir] = contrib
 
 
 ; Open Way Modules
