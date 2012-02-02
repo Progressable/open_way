@@ -6,22 +6,6 @@
  * Perform actions to set up the site for this profile.
  */
 function open_way_install() {
-
-  open_way_enable_admin_theme ();
-
-  // set various system variables
-  variable_set('pathauto_node_pattern', '[node:type]/[node:title]');
-  variable_set('pathauto_node_blog_entry_pattern', 'blog/[node:created:custom:Y-m-d]/[node:title]');
-  variable_set('pathauto_punctuation_underscore', '1');
-  //variable_set('statistics_count_content_views', '1');
-}
-
-
-
-/**
-* Set Rubik as the Admin Theme
-*/
-function open_way_enable_admin_theme () {
   // Enable the admin theme.
   db_update('system')
     ->fields(array('status' => 1))
@@ -35,49 +19,4 @@ function open_way_enable_admin_theme () {
     ->execute();
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
-}
-
-/**
- * Helper function to pre-configure Secure Pages settings. It 
- * checks to see if the module exists, and then checks to make 
- * sure that SSL is configured for this server. If so, then it
- * sets the appropriate default system variables.
- */
-function open_way_configure_securepages() {
-  return;
-  if (function_exists('securepages_test')) {
-    if (securepages_test()) {
-      variable_set('securepages_enable', '0');
-      variable_set('securepages_basepath', '');
-      variable_set('securepages_basepath_ssl', '');
-      variable_set('securepages_ignore', SECUREPAGES_IGNORE);
-      variable_set('securepages_pages', SECUREPAGES_PAGES);
-      variable_set('securepages_secure', '1');
-      variable_set('securepages_switch', TRUE);
-      variable_set('https', TRUE);
-    }
-  }
-}
-
-function open_way_configure_commentnotify() {
-  $content_types = array_combine(array_keys(node_type_get_types()), array_keys(node_type_get_types()));
-  variable_set('comment_notify_node_types', $content_types);
-}
-
-function open_way_install_tasks() {
-  $task['secure_pages'] = array(
-    'display_name' => st('Install configurations for Secure Pages'),
-    'display' => FALSE,
-    'type' => 'normal',
-    'run' => INSTALL_TASK_RUN_IF_REACHED,
-    'function' => 'open_way_configure_securepages',
-  );
-  $task['comment_notify'] = array(
-    'display_name' => st('Install configurations for Comment Notify'),
-    'display' => FALSE,
-    'type' => 'normal',
-    'run' => INSTALL_TASK_RUN_IF_REACHED,
-    'function' => 'open_way_configure_commentnotify',
-  );
-  return $task;
 }
