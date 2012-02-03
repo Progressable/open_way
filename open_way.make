@@ -53,10 +53,6 @@ projects[context][type] = "module"
 projects[context][version] = 3.0-beta2
 projects[context][subdir] = contrib
 
-projects[css_injector][type] = "module"
-projects[css_injector][version] = 1.7
-projects[css_injector][subdir] = contrib
-
 projects[ctools][type] = "module"
 projects[ctools][version] = 1.0-rc1
 projects[ctools][subdir] = contrib
@@ -81,10 +77,6 @@ projects[features][type] = "module"
 projects[features][version] = 1.0-beta6
 projects[features][subdir] = contrib
 
-projects[flag][type] = "module"
-projects[flag][version] = 2.0-beta6
-projects[flag][subdir] = contrib
-
 projects[flexible_blogs][type] = "module"
 projects[flexible_blogs][version] = 1.0
 projects[flexible_blogs][subdir] = contrib
@@ -100,18 +92,6 @@ projects[imageapi][subdir] = contrib
 projects[imagecache_actions][type] = "module"
 projects[imagecache_actions][version] = 1.x-dev
 projects[imagecache_actions][subdir] = contrib
-
-projects[imce_wysiwyg][type] = "module"
-projects[imce_wysiwyg][version] = 1.0
-projects[imce_wysiwyg][subdir] = contrib
-
-projects[imce][type] = "module"
-projects[imce][version] = 1.5
-projects[imce][subdir] = contrib
-
-projects[invite][type] = "module"
-projects[invite][version] = 2.1-beta2
-projects[invite][subdir] = contrib
 
 projects[libraries][type] = "module"
 projects[libraries][version] = 1.0
@@ -164,14 +144,6 @@ projects[options_element][subdir] = contrib
 projects[pathauto][type] = "module"
 projects[pathauto][version] = 1.0
 projects[pathauto][subdir] = contrib
-
-projects[plupload][type] = "module"
-projects[plupload][type] = "module"
-projects[plupload][subdir] = contrib
-
-projects[plupload][version] = 1.0
-projects[plupload][version] = 1.0-beta3
-projects[plupload][subdir] = contrib
 
 projects[redirect][type] = "module"
 projects[redirect][version] = 1.0-beta4
@@ -273,6 +245,9 @@ projects[rules][subdir] = contrib
 projects[apps][version] = 1.0-beta5
 projects[apps][subdir] = contrib
 
+projects[diff][type] = "module"
+projects[diff][version] = 2.0
+
 
 ; Open Way Modules
 ; --------
@@ -299,7 +274,6 @@ projects[live_united_2011][download][url] = "git://github.com/Progressable/live_
 projects[live_united_classic][type] = "theme"
 projects[live_united_classic][download][url] = "git://github.com/Progressable/live_united_classic.git"
 projects[live_united_classic][download][type] = "git"
-
 
 
   
@@ -335,11 +309,6 @@ libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
 
-; Plupload
-libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip
-libraries[plupload][destination] = "libraries"
-libraries[plupload][directory_name] = plupload
 
 ; Mediaelement
 libraries[mediaelement][download][type] = "get"
