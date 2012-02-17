@@ -30,7 +30,7 @@
 name = Open Way
 description = A Drupal distribution for United Way's
 core = 7.x
-theme = live_united_classic
+theme = live_united_2012
 
 ; -----------------------------------------------------------------------------
 ; You could specify this as a base Profiler include by using the following in
@@ -99,14 +99,14 @@ dependencies[] = open_way_configuration_images_styles
 dependencies[] = open_way_configuration_video_and_audio
 dependencies[] = open_way_structure_blog
 dependencies[] = open_way_structure_pages
-dependencies[] = open_way_appearance_classic_theme_gav
+; dependencies[] = open_way_appearance_classic_theme_gav
 dependencies[] = open_way_configuration_text_formats
 dependencies[] = open_way_content_default_pages
 ; dependencies[] = open_way_configuration_visual_enhancements
 dependencies[] = open_way_people_roles
 dependencies[] = open_way_structure_blogger_bio
 dependencies[] = open_way_structure_story
-
+dependencies[] = open_way_appearance_live_united_2012
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
@@ -135,10 +135,10 @@ variables [toggle_comment_user_picture] = 1
 variables [toggle_main_menu] = 0
 variables [toggle_secondary_menu] = 0
 variables [default_logo] = 0
-variables [logo_path] => 'sites/all/themes/live_united_classic/images/image_common/topBlu_liveUnited.gif',
+;variables [logo_path] => 'sites/all/themes/live_united_classic/images/image_common/topBlu_liveUnited.gif',
 ;variables  [logo_upload] =   
 variables [default_favicon] = 0
-variables [favicon_path] = sites/all/themes/live_united_classic/images/image_common/live_united_favicon.gif
+;variables [favicon_path] = sites/all/themes/live_united_classic/images/image_common/live_united_favicon.gif
 ;variables [favicon_upload] =   
 variables [zen_breadcrumb] = yes
 variables [zen_breadcrumb_home] = 1

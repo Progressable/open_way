@@ -275,6 +275,9 @@ projects[live_united_classic][type] = "theme"
 projects[live_united_classic][download][url] = "git://github.com/Progressable/live_united_classic.git"
 projects[live_united_classic][download][type] = "git"
 
+projects[live_united_2012][type] = "theme"
+projects[live_united_2012][download][type] = "git"
+projects[live_united_2012][download][url] = "git://github.com/Progressable/live_united_2012.git"
 
   
 ; Libraries
