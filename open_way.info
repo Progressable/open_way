@@ -107,6 +107,7 @@ dependencies[] = open_way_people_roles
 dependencies[] = open_way_structure_blogger_bio
 dependencies[] = open_way_structure_story
 dependencies[] = open_way_appearance_live_united_2012
+dependencies[] = open_way_defaults
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
