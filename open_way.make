@@ -38,7 +38,7 @@ projects[better_formats][version] = 1.x-dev
 projects[better_formats][subdir] = contrib
 
 projects[boxes][type] = "module"
-projects[boxes][version] = 1.0-beta6
+projects[boxes][version] = 1.0-beta7
 projects[boxes][subdir] = contrib
 
 projects[cck][type] = "module"
@@ -62,7 +62,7 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
 projects[date][type] = "module"
-projects[date][version] = 2.0-rc2
+projects[date][version] = 2.1
 projects[date][subdir] = contrib
 
 projects[email][type] = "module"
@@ -118,7 +118,7 @@ projects[media_vimeo][version] = 1.0-beta4
 projects[media_vimeo][subdir] = contrib
 
 projects[media_youtube][type] = "module"
-projects[media_youtube][version] = 7.x-1.0-beta1
+projects[media_youtube][version] = 1.0-beta1
 projects[media_youtube][subdir] = contrib
 
 projects[media][type] = "module"
@@ -130,7 +130,7 @@ projects[mediaelement][version] = 1.2
 projects[mediaelement][subdir] = contrib
 
 projects[menu_block][type] = "module"
-projects[menu_block][version] = 2.2
+projects[menu_block][version] = 2.3
 projects[menu_block][subdir] = contrib
 
 projects[multiform][type] = "module"
@@ -178,7 +178,7 @@ projects[styles][version] = 2.0-alpha8
 projects[styles][subdir] = contrib
 
 projects[token][type] = "module"
-projects[token][version] = 1.0-beta7
+projects[token][version] = 1.0-rc1
 projects[token][subdir] = contrib
 
 projects[views_slideshow][type] = "module"
@@ -186,7 +186,7 @@ projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = contrib
 
 projects[views][type] = "module"
-projects[views][version] = 3.1
+projects[views][version] = 3.2 
 projects[views][subdir] = contrib
 
 projects[webform][type] = "module"
@@ -209,7 +209,7 @@ projects[jquery_update][version] = 2.2
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = contrib
 
-projects[defaultcontent][version] = 1.0-alpha4
+projects[defaultcontent][version] = 1.0-alpha6
 projects[defaultcontent][subdir] = contrib
 
 projects[field_group][version] = 1.1
@@ -221,13 +221,13 @@ projects[globalredirect][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 projects[image_resize_filter][subdir] = contrib
 
-projects[profile2][version] = 1.1
+projects[profile2][version] = 1.2
 projects[profile2][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.1
 projects[workbench_moderation][subdir] = contrib
 
-projects[file_entity][version] = 2.0-unstable2
+projects[file_entity][version] = 2.0-unstable3
 projects[file_entity][subdir] = contrib
 
 projects[entity][version] = 1.0-rc1
@@ -283,8 +283,9 @@ projects[open_way_modules][download][url] = "git://github.com/Progressable/open_
 
 projects[tao][version] = 3.0-beta4
 
-projects[rubik][version] = 4.0-beta6
+projects[rubik][version] = 4.0-beta7
 projects[rubik][type] = "theme"
+
 projects[zen][version] = 3.1
 projects[zen][type] = "theme"
 
