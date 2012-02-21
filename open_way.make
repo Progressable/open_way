@@ -62,7 +62,7 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
 projects[date][type] = "module"
-projects[date][version] = 2.0-rc1
+projects[date][version] = 2.0-rc2
 projects[date][subdir] = contrib
 
 projects[email][type] = "module"
@@ -118,7 +118,7 @@ projects[media_vimeo][version] = 1.0-beta4
 projects[media_vimeo][subdir] = contrib
 
 projects[media_youtube][type] = "module"
-projects[media_youtube][version] = 1.0-alpha5
+projects[media_youtube][version] = 7.x-1.0-beta1
 projects[media_youtube][subdir] = contrib
 
 projects[media][type] = "module"
@@ -247,6 +247,27 @@ projects[apps][subdir] = contrib
 
 projects[diff][type] = "module"
 projects[diff][version] = 2.0
+
+projects[page_title][type] = "module" 
+projects[page_title][version] = 2.5
+projects[page_title][subdir] = contrib
+
+projects[scheduler][type] = "module" 
+projects[scheduler][version] = 1.0
+projects[scheduler][subdir] = contrib
+
+projects[xmlsitemap][type] = "module" 
+projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][subdir] = contrib
+
+projects[site_verify][type] = "module" 
+projects[site_verify][version] = 1.0
+projects[site_verify][subdir] = contrib
+
+projects[googlenews][type] = "module"
+projects[googlenews][version] = 1.4
+projects[googlenews][subdir] = contrib
+
 
 
 ; Open Way Modules
