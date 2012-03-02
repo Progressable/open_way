@@ -108,6 +108,8 @@ dependencies[] = open_way_structure_blogger_bio
 dependencies[] = open_way_structure_story
 dependencies[] = open_way_appearance_live_united_2012
 dependencies[] = open_way_defaults
+dependencies[] = open_way_structure_slides
+dependencies[] = open_way_structure_front_page_slideshow
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
