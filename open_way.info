@@ -95,7 +95,7 @@ dependencies[] = save_draft
 dependencies[] = search404
 
 ; Open Way Features
-dependencies[] = open_way_defaults
+
 dependencies[] = open_way_people_roles
 dependencies[] = open_way_configuration_text_formats
 dependencies[] = open_way_configuration_images_styles
@@ -108,6 +108,7 @@ dependencies[] = open_way_structure_blogger_bio
 dependencies[] = open_way_structure_slides
 dependencies[] = open_way_structure_front_page_slideshow
 dependencies[] = open_way_content_default_pages
+dependencies[] = open_way_defaults
 
 
 ; -----------------------------------------------------------------------------
