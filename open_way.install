@@ -19,4 +19,11 @@ function open_way_install() {
     ->execute();
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
+
+// remove title from NiceMenu block
+
+  db_query("UPDATE {blocks} SET title = '<none>' WHERE module = 'nice_menus'");
+
+
+
 }
