@@ -122,7 +122,7 @@ dependencies[] = open_way_defaults
 ; variables need to be set if you want to bypass the Configuration form during 
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-variables[site_name] = United Way of Anytown
+;variables[site_name] = United Way of Anytown
 ;variables[site_mail] = testing@testing
 variables[site_frontpage] = welcome
 
