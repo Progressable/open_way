@@ -124,7 +124,14 @@ dependencies[] = open_way_defaults
 ; -----------------------------------------------------------------------------
 ;variables[site_name] = United Way of Anytown
 ;variables[site_mail] = testing@testing
-variables[site_frontpage] = welcome
+
+
+nodes[welcome][type] = ow_page
+nodes[welcome][title] = Welcome to Open Way!
+nodes[welcome][uid] = 1
+nodes[welcome][body] = <p>Now that you have installed the platform, please take some time to look around.</p><p>Having intalled this yourself you have a great number of choices on what you do next. You may want to enhance your site but doing some additional configuration and customization. &nbsp;Here are some good places to start:&nbsp;</p><ul><li>Customize theme settings:&nbsp;<a href="/appearance/settings/live_united_2012">yoursite.org/appearance/settings/live_united_2012</a></li><li>Add, move or remove blocks of content:<a href="/admin/structure/block">&nbsp;yoursite.org/admin/structure/block</a></li><li>Add some content to see how it works:&nbsp;<a href="/node/add">yoursite.org/node/add</a></li></ul><p>&nbsp;</p><p>If you have questions or suggestions make them known at&nbsp;<a href="http://openwayproject.org/">http://openwayproject.org/</a></p>
+
+variables[site_frontpage] = node/1
 
 ; options for default theme
 variables [toggle_logo] = 1
@@ -148,6 +155,7 @@ variables [favicon_mimetype] = image/gif
 ; Since we bypassed the configuration screen, it is enabled by default, so to 
 ; disable it you'll want to uncomment this line:
 ; variables[clean_url] = 0
+
 
 
 
