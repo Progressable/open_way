@@ -108,8 +108,11 @@ dependencies[] = open_way_structure_blogger_bio
 dependencies[] = open_way_structure_slides
 dependencies[] = open_way_structure_front_page_slideshow
 dependencies[] = open_way_content_default_pages
+dependencies[] = open_way_content_default_display_boxes
+dependencies[] = open_way_content_default_stories
+dependencies[] = open_way_structure_featured_activity_list
+dependencies[] = open_way_structure_display_box
 dependencies[] = open_way_defaults
-
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
@@ -127,9 +130,10 @@ dependencies[] = open_way_defaults
 
 
 nodes[welcome][type] = ow_page
+nodes[welcome][language] = und
 nodes[welcome][title] = Welcome to Open Way!
 nodes[welcome][uid] = 1
-nodes[welcome][body] = <p>Now that you have installed the platform, please take some time to look around.</p><p>Having intalled this yourself you have a great number of choices on what you do next. You may want to enhance your site but doing some additional configuration and customization. &nbsp;Here are some good places to start:&nbsp;</p><ul><li>Customize theme settings:&nbsp;<a href="/appearance/settings/live_united_2012">yoursite.org/appearance/settings/live_united_2012</a></li><li>Add, move or remove blocks of content:<a href="/admin/structure/block">&nbsp;yoursite.org/admin/structure/block</a></li><li>Add some content to see how it works:&nbsp;<a href="/node/add">yoursite.org/node/add</a></li></ul><p>&nbsp;</p><p>If you have questions or suggestions make them known at&nbsp;<a href="http://openwayproject.org/">http://openwayproject.org/</a></p>
+nodes[welcome][field_body] = <p>Now that you have installed the platform, please take some time to look around.</p><p>Having intalled this yourself you have a great number of choices on what you do next. You may want to enhance your site but doing some additional configuration and customization. &nbsp;Here are some good places to start:&nbsp;</p><ul><li>Customize theme settings:&nbsp;<a href="/appearance/settings/live_united_2012">yoursite.org/appearance/settings/live_united_2012</a></li><li>Add, move or remove blocks of content:<a href="/admin/structure/block">&nbsp;yoursite.org/admin/structure/block</a></li><li>Add some content to see how it works:&nbsp;<a href="/node/add">yoursite.org/node/add</a></li></ul><p>&nbsp;</p><p>If you have questions or suggestions make them known at&nbsp;<a href="http://openwayproject.org/">http://openwayproject.org/</a></p>
 
 variables[site_frontpage] = node/1
 
