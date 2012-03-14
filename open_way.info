@@ -110,6 +110,7 @@ dependencies[] = open_way_structure_front_page_slideshow
 dependencies[] = open_way_content_default_pages
 dependencies[] = open_way_content_default_display_boxes
 dependencies[] = open_way_content_default_stories
+dependencies[] = open_way_content_default_slides
 dependencies[] = open_way_structure_featured_activity_list
 dependencies[] = open_way_structure_display_box
 dependencies[] = open_way_defaults

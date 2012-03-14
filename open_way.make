@@ -242,9 +242,6 @@ projects[themekey][subdir] = contrib
 projects[rules][version] = 2.0
 projects[rules][subdir] = contrib
 
-projects[apps][version] = 1.0-beta5
-projects[apps][subdir] = contrib
-
 projects[diff][type] = "module"
 projects[diff][version] = 2.0
 
