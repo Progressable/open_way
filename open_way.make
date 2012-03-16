@@ -62,7 +62,7 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
 projects[date][type] = "module"
-projects[date][version] = 2.1
+projects[date][version] = 2.2
 projects[date][subdir] = contrib
 
 projects[email][type] = "module"
@@ -118,7 +118,7 @@ projects[media_vimeo][version] = 1.0-beta4
 projects[media_vimeo][subdir] = contrib
 
 projects[media_youtube][type] = "module"
-projects[media_youtube][version] = 1.0-beta1
+projects[media_youtube][version] = 1.0-beta3
 projects[media_youtube][subdir] = contrib
 
 projects[media][type] = "module"
@@ -138,7 +138,7 @@ projects[multiform][version] = 1.0-beta2
 projects[multiform][subdir] = contrib
 
 projects[options_element][type] = "module"
-projects[options_element][version] = 1.5
+projects[options_element][version] = 1.6
 projects[options_element][subdir] = contrib
 
 projects[pathauto][type] = "module"
@@ -186,11 +186,11 @@ projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = contrib
 
 projects[views][type] = "module"
-projects[views][version] = 3.2 
+projects[views][version] = 3.3
 projects[views][subdir] = contrib
 
 projects[webform][type] = "module"
-projects[webform][version] = 3.15
+projects[webform][version] = 3.17
 projects[webform][subdir] = contrib
 
 projects[workbench][type] = "module"
@@ -201,7 +201,7 @@ projects[wysiwyg][type] = "module"
 projects[wysiwyg][version] = 2.1
 projects[wysiwyg][subdir] = contrib
 
-projects[comment_notify][version] = 1.0-rc1
+projects[comment_notify][version] = 1.0
 projects[comment_notify][type] = "module"
 projects[comment_notify][subdir] = contrib
 
@@ -233,7 +233,7 @@ projects[file_entity][subdir] = contrib
 projects[entity][version] = 1.0-rc1
 projects[entity][subdir] = contrib
 
-projects[nice_menus][version] = 2.0
+projects[nice_menus][version] = 2.1
 projects[nice_menus][subdir] = contrib
 
 projects[themekey][version] = 2.0
@@ -265,6 +265,10 @@ projects[googlenews][type] = "module"
 projects[googlenews][version] = 1.4
 projects[googlenews][subdir] = contrib
 
+projects[userprotect][type] = "module"
+projects[userprotect][version] = 1.0
+projects[userprotect][subdir] = contrib
+
 
 
 ; Open Way Modules
@@ -280,7 +284,7 @@ projects[open_way_modules][download][url] = "git://github.com/Progressable/open_
 
 projects[tao][version] = 3.0-beta4
 
-projects[rubik][version] = 4.0-beta7
+projects[rubik][version] = 4.0-beta8
 projects[rubik][type] = "theme"
 
 projects[zen][version] = 3.1
