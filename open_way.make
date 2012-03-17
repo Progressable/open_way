@@ -244,6 +244,7 @@ projects[rules][subdir] = contrib
 
 projects[diff][type] = "module"
 projects[diff][version] = 2.0
+projects[diff][subdir] = contrib
 
 projects[page_title][type] = "module" 
 projects[page_title][version] = 2.5
@@ -270,6 +271,13 @@ projects[userprotect][version] = 1.0
 projects[userprotect][subdir] = contrib
 
 
+projects[metatag][type] = "module"
+projects[metatag][version] = 1.0-alpha4
+projects[metatag][subdir] = contrib
+
+projects[purr_messages][type] = "module"
+projects[purr_messages][version] = 2.0-beta3
+projects[purr_messages][subdir] = contrib
 
 ; Open Way Modules
 ; --------

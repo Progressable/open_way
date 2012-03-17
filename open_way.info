@@ -93,6 +93,8 @@ dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = save_draft
 dependencies[] = search404
+dependencies[] = metatag
+dependencies[] = purr_messages
 
 ; Open Way Features
 
