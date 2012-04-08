@@ -54,7 +54,7 @@ projects[context][version] = 3.0-beta2
 projects[context][subdir] = contrib
 
 projects[ctools][type] = "module"
-projects[ctools][version] = 1.0-rc1
+projects[ctools][version] = 1.0
 projects[ctools][subdir] = contrib
 
 projects[custom_breadcrumbs][type] = "module"
@@ -62,7 +62,7 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
 projects[date][type] = "module"
-projects[date][version] = 2.2
+projects[date][version] = 2.3
 projects[date][subdir] = contrib
 
 projects[email][type] = "module"
@@ -74,7 +74,7 @@ projects[extlink][version] = 1.12
 projects[extlink][subdir] = contrib
 
 projects[features][type] = "module"
-projects[features][version] = 1.0-beta6
+projects[features][version] = 1.0-rc1
 projects[features][subdir] = contrib
 
 projects[flexible_blogs][type] = "module"
@@ -106,7 +106,7 @@ projects[logintoboggan][version] = 1.3
 projects[logintoboggan][subdir] = contrib
 
 projects[media_browser_plus][type] = "module"
-projects[media_browser_plus][version] = 1.0-beta3
+projects[media_browser_plus][version] = 1.0
 projects[media_browser_plus][subdir] = contrib
 
 projects[media_gallery][type] = "module"
@@ -170,7 +170,7 @@ projects[stringoverrides][version] = 1.8
 projects[stringoverrides][subdir] = contrib
 
 projects[strongarm][type] = "module"
-projects[strongarm][version] = 2.0-beta5
+projects[strongarm][version] = 2.0-rc1	
 projects[strongarm][subdir] = contrib
 
 projects[styles][type] = "module"
@@ -178,7 +178,7 @@ projects[styles][version] = 2.0-alpha8
 projects[styles][subdir] = contrib
 
 projects[token][type] = "module"
-projects[token][version] = 1.0-rc1
+projects[token][version] = 1.0
 projects[token][subdir] = contrib
 
 projects[views_slideshow][type] = "module"
@@ -272,7 +272,7 @@ projects[userprotect][subdir] = contrib
 
 
 projects[metatag][type] = "module"
-projects[metatag][version] = 1.0-alpha4
+projects[metatag][version] = 1.0-alpha5
 projects[metatag][subdir] = contrib
 
 projects[purr_messages][type] = "module"
