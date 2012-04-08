@@ -106,7 +106,7 @@ projects[logintoboggan][version] = 1.3
 projects[logintoboggan][subdir] = contrib
 
 projects[media_browser_plus][type] = "module"
-projects[media_browser_plus][version] = 1.0
+projects[media_browser_plus][version] = 1.0-beta3
 projects[media_browser_plus][subdir] = contrib
 
 projects[media_gallery][type] = "module"
