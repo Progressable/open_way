@@ -46,7 +46,7 @@ projects[cck][version] = 2.x-dev
 projects[cck][subdir] = contrib
 
 projects[colorbox][type] = "module"
-projects[colorbox][version] = 1.2
+projects[colorbox][version] = 1.3
 projects[colorbox][subdir] = contrib
 
 projects[context][type] = "module"
@@ -114,7 +114,7 @@ projects[media_gallery][version] = 1.0-beta7
 projects[media_gallery][subdir] = contrib
 
 projects[media_vimeo][type] = "module"
-projects[media_vimeo][version] = 1.0-beta4
+projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
 
 projects[media_youtube][type] = "module"
@@ -122,7 +122,7 @@ projects[media_youtube][version] = 1.0-beta3
 projects[media_youtube][subdir] = contrib
 
 projects[media][type] = "module"
-projects[media][version] = 1.0-rc3
+projects[media][version] = 1.0
 projects[media][subdir] = contrib
 
 projects[mediaelement][type] = "module"
