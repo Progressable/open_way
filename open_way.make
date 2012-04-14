@@ -138,7 +138,7 @@ projects[multiform][version] = 1.0-beta2
 projects[multiform][subdir] = contrib
 
 projects[options_element][type] = "module"
-projects[options_element][version] = 1.6
+projects[options_element][version] = 1.7
 projects[options_element][subdir] = contrib
 
 projects[pathauto][type] = "module"
@@ -239,7 +239,7 @@ projects[nice_menus][subdir] = contrib
 projects[themekey][version] = 2.0
 projects[themekey][subdir] = contrib
 
-projects[rules][version] = 2.0
+projects[rules][version] = 2.1
 projects[rules][subdir] = contrib
 
 projects[diff][type] = "module"
@@ -321,7 +321,7 @@ libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profi
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 

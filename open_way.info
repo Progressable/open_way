@@ -28,7 +28,7 @@
 ; -----------------------------------------------------------------------------
 
 name = Open Way
-description = A Drupal distribution for United Way's
+description = A Drupal distribution for United Way.
 core = 7.x
 theme = live_united_2012
 
