@@ -74,7 +74,7 @@ projects[extlink][version] = 1.12
 projects[extlink][subdir] = contrib
 
 projects[features][type] = "module"
-projects[features][version] = 1.0-rc1
+projects[features][version] = 1.0-rc2
 projects[features][subdir] = contrib
 
 projects[flexible_blogs][type] = "module"
@@ -279,6 +279,12 @@ projects[purr_messages][type] = "module"
 projects[purr_messages][version] = 2.0-beta3
 projects[purr_messages][subdir] = contrib
 
+projects[ds][version] = 1.5
+projects[ds][type] = "module"
+projects[ds][subdir] = contrib
+
+
+
 ; Open Way Modules
 ; --------
 
@@ -321,7 +327,7 @@ libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profi
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 

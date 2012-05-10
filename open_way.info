@@ -32,6 +32,7 @@ description = A Drupal distribution for United Way.
 core = 7.x
 theme = live_united_2012
 
+old_short_name = standard
 ; -----------------------------------------------------------------------------
 ; You could specify this as a base Profiler include by using the following in
 ; your own Install profile's Profiler include. Then everything in this file
