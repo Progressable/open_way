@@ -30,7 +30,7 @@ projects[drupal][type] = core
 
 
 projects[backup_migrate][type] = "module"
-projects[backup_migrate][version] = 2.2
+projects[backup_migrate][version] = 2.3
 projects[backup_migrate][subdir] = contrib
 
 projects[better_formats][type] = "module"
@@ -38,7 +38,7 @@ projects[better_formats][version] = 1.x-dev
 projects[better_formats][subdir] = contrib
 
 projects[boxes][type] = "module"
-projects[boxes][version] = 1.0-beta7
+projects[boxes][version] = 1.0
 projects[boxes][subdir] = contrib
 
 projects[cck][type] = "module"
@@ -50,7 +50,7 @@ projects[colorbox][version] = 1.3
 projects[colorbox][subdir] = contrib
 
 projects[context][type] = "module"
-projects[context][version] = 3.0-beta2
+projects[context][version] = 3.0-beta3
 projects[context][subdir] = contrib
 
 projects[ctools][type] = "module"
@@ -142,7 +142,7 @@ projects[options_element][version] = 1.7
 projects[options_element][subdir] = contrib
 
 projects[pathauto][type] = "module"
-projects[pathauto][version] = 1.0
+projects[pathauto][version] = 1.1
 projects[pathauto][subdir] = contrib
 
 projects[redirect][type] = "module"
@@ -178,7 +178,7 @@ projects[styles][version] = 2.0-alpha8
 projects[styles][subdir] = contrib
 
 projects[token][type] = "module"
-projects[token][version] = 1.0
+projects[token][version] = 1.1
 projects[token][subdir] = contrib
 
 projects[views_slideshow][type] = "module"
@@ -190,7 +190,7 @@ projects[views][version] = 3.3
 projects[views][subdir] = contrib
 
 projects[webform][type] = "module"
-projects[webform][version] = 3.17
+projects[webform][version] = 3.18
 projects[webform][subdir] = contrib
 
 projects[workbench][type] = "module"
@@ -230,7 +230,7 @@ projects[workbench_moderation][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable3
 projects[file_entity][subdir] = contrib
 
-projects[entity][version] = 1.0-rc1
+projects[entity][version] = 1.0-rc2
 projects[entity][subdir] = contrib
 
 projects[nice_menus][version] = 2.1
@@ -272,7 +272,7 @@ projects[userprotect][subdir] = contrib
 
 
 projects[metatag][type] = "module"
-projects[metatag][version] = 1.0-alpha5
+projects[metatag][version] = 1.0-alpha6
 projects[metatag][subdir] = contrib
 
 projects[purr_messages][type] = "module"
