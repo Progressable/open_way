@@ -30,7 +30,7 @@ projects[drupal][type] = core
 
 
 projects[backup_migrate][type] = "module"
-projects[backup_migrate][version] = 2.3
+projects[backup_migrate][version] = 2.4
 projects[backup_migrate][subdir] = contrib
 
 projects[better_formats][type] = "module"
@@ -90,7 +90,7 @@ projects[imageapi][version] = 1.x-dev
 projects[imageapi][subdir] = contrib
 
 projects[imagecache_actions][type] = "module"
-projects[imagecache_actions][version] = 1.x-dev
+projects[imagecache_actions][version] = 1.0
 projects[imagecache_actions][subdir] = contrib
 
 projects[libraries][type] = "module"
@@ -303,14 +303,6 @@ projects[rubik][type] = "theme"
 
 projects[zen][version] = 3.1
 projects[zen][type] = "theme"
-
-projects[live_united_2011][type] = "theme"
-projects[live_united_2011][download][type] = "git"
-projects[live_united_2011][download][url] = "git://github.com/Progressable/live_united_2011.git"
-
-projects[live_united_classic][type] = "theme"
-projects[live_united_classic][download][url] = "git://github.com/Progressable/live_united_classic.git"
-projects[live_united_classic][download][type] = "git"
 
 projects[live_united_2012][type] = "theme"
 projects[live_united_2012][download][type] = "git"
