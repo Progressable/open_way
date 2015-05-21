@@ -330,10 +330,10 @@ libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
 
 ; Colorbox
-libraries[colorbox][download][type]= "get"
-libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type]= "get"
+;libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+;libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][destination] = "libraries"
 
 ; jquery.cycle
 libraries[jquery.cycle][download][type]= "get"
